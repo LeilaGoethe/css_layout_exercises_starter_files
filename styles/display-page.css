@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    padding: 5% 15%;
+}
+
+.first-row,
+.second-row {
+    display: block;
+    font-size: 0;
+    width: 800px;
+    margin: auto;
+}
+
+.first-row { height: 200px; }
+.second-row { height: 300px; }
+
+.first-row > div {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    border: solid 1px black;
+}
+
+.second-row > div {
+    width: 33.3%;
+    height: 100%;
+    display: inline-block;
+    border: solid 1px black;
+}
+
+#box-one { background-color: green; }
+#box-two { background-color: blue; }
+#box-three { background-color: grey; }
+#box-four { background-color: black; }
+#box-five { background-color: orange;}
