@@ -10,3 +10,16 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+#img1,
+#img2 {
+  width: 40%;
+  margin: 1em;
+}
+
+#img1 { float: left; }
+#img2 { float: right; }
+
+p {
+  text-align: justify;
+}
